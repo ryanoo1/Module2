@@ -1,0 +1,32 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: navy;
+}
+
+.demo {
+    margin-bottom: 20px;
+}
+
+/* Child combinator */
+.parent > p {
+    color: red;
+}
+
+/* Adjacent sibling combinator */
+div + p {
+    color: green;
+}
+
+/* General sibling combinator */
+div ~ p {
+    font-style: italic;
+}
+
+/* Descendant combinator */
+div p {
+    color: blue;
+}

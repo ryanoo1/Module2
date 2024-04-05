@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Combinators Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Combinators</h1>
+        <section class="demo">
+            <h2>Child Combinator (>)</h2>
+            <div class="parent">
+                <p>Child of div</p>
+                <article>Not targeted</article>
+            </div>
+        </section>
+        <section class="demo">
+            <h2>Adjacent Sibling Combinator (+)</h2>
+            <div>Element before paragraph</div>
+            <p>Adjacent sibling of div</p>
+        </section>
+        <section class="demo">
+            <h2>General Sibling Combinator (~)</h2>
+            <div>Element before paragraphs</div>
+            <p>General sibling of div</p>
+            <p>Another general sibling of div</p>
+        </section>
+        <section class="demo">
+            <h2>Descendant Combinator (space)</h2>
+            <div>
+                <p>Descendant of div</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
